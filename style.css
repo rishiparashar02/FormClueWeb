@@ -107,7 +107,7 @@ footer {
   color: #aaa;
 }
 .contact-section {
-  /* background-color: #02020200; Slightly darker for depth */
+  background-color: #02020200;
   color: #e0e0e0;
   padding: 2rem;
   border-radius: 12px;
