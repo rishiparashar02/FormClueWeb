@@ -1,0 +1,157 @@
+/* Reset + Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #1e1e1e;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #00bfff;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* Download Button */
+.download-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#downloadBtn {
+  background-color: #00bfff;
+  color: #121212;
+  padding: 14px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#downloadBtn:hover {
+  background-color: #0099cc;
+}
+
+.note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Video */
+.video-section {
+  margin-bottom: 40px;
+}
+
+.video-section video {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+  border: 1px solid #333;
+}
+
+/* Instructions */
+.instructions h2 {
+  margin-bottom: 15px;
+  color: #00bfff;
+}
+
+.instructions ol {
+  padding-left: 20px;
+}
+
+.instructions li {
+  margin-bottom: 12px;
+  color: #ddd;
+}
+
+code {
+  background: #2a2a2a;
+  color: #ffea00;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: #aaa;
+}
+.contact-section {
+  /* background-color: #02020200; Slightly darker for depth */
+  color: #e0e0e0;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 3rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.contact-section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-section li {
+  margin-bottom: 10px;
+}
+
+.contact-section a {
+  display: inline-block;
+  color: #58b4ff;
+  background-color: rgba(88, 166, 255, 0.1);
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  background-color: #c1dbf9;
+  color: #111;
+  text-decoration: none;
+}
+
