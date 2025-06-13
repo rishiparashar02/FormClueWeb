@@ -172,6 +172,10 @@ footer {
   color: #ffffff;
 }
 
+.features-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 
 
